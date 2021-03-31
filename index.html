@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="ja" prefix="og: サイトURL#">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>美容系サイト【架空サイト】</title>
+    <meta name="description" content="" />
+    <!--PC：１２０文字以内 スマホ：70文字以内-->
+    <!--ここからOGP-->
+    <meta property="og:url" content=" ページの URL" />
+    <meta property="og:type" content=" ページの種類" />
+    <!--website /faq 下層→article-->
+    <meta property="og:title" content=" ページの タイトル" />
+    <meta property="og:description" content=" ページのディスクリプション" />
+    <meta property="og:site_name" content="サイト名" />
+    <meta property="og:image" content=" サムネイル画像の URL" />
+    <!--//OGPここまで-->
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <!--ここからヘッダー-->
+    <header class="header">
+      <div class="header__inner">
+        <div class="header__ttl">
+          <img src="/images/logo.png" alt="ロゴ" />
+        </div>
+        <!--ナビゲーション-->
+        <nav class="nav">
+          <ul class="nav__lists">
+            <li class="nav__list"><a href="#home">ホーム</a></li>
+            <li class="nav__list"><a href="#problem">問題提起</a></li>
+            <li class="nav__list"><a href="#solution">解決法</a></li>
+            <li class="nav__list"><a href="#narrow">今購入すべき3つの理由</a></li>
+            <li class="nav__list"><a href="#FAQ">よくある質問</a></li>
+            <li class="nav__list"><a href="#cta">今すぐ試す</a></li>
+          </ul>
+        </nav>
+        <!--hamburgerボタンー-->
+        <div class="hamburger-btn">
+          <span class="hamburger-btn__parts -top"></span>
+          <span class="hamburger-btn__parts -middle"></span>
+          <span class="hamburger-btn__parts -bottom"></span>
+        </div>
+        <!--hamburgerメニュー-->
+        <nav class="hamburger">
+          <ul class="hamburger__lists">
+            <li class="hamburger__list">
+              <a class="hamburger__link" href="#home">ホーム</a>
+            </li>
+            <li class="hamburger__list">
+              <a class="hamburger__link" href="#problem">問題提起</a>
+            </li>
+            <li class="hamburger__list">
+              <a class="hamburger__link" href="#solution">解決法</a>
+            </li>
+            <li class="hamburger__list">
+              <a class="hamburger__link" href="#narrow">今買うべき3つの理由</a>
+            </li>
+            <li class="hamburger__list">
+              <a class="hamburger__link" href="#FAQ">よくある質問</a>
+            </li>
+            <li class="hamburger__list">
+              <a class="hamburger__link" href="#cta">今すぐ試す</a>
+            </li>
+          </ul>
+        </nav>
+        <!--//ここまでナビゲーション-->
+      </div>
+    </header>
+    <!--//ここまでヘッダー-->
+
+    <!--ここからメインコンテンツ-->
+    <main class="main">
+      <!--ここからファーストビュー -->
+      <div class="fv" id="home">
+        <p class="fv__ttl">肌荒れチェック<br />できてますか？</p>
+        <div class="fv__btn">
+          <a href="#"><img src="images/btn-cta.png" alt="ctaボタン" /></a>
+        </div>
+        <div class="fv__specialBtn">
+          <a href="#"
+            ><span class="fv__specialBtn__img1"></span
+            >男性限定！2980円で買える、スキンケア発売！今なら購入特典も！</a
+          >
+        </div>
+        <div class="fv__specialBtn down">
+          <a href="#"
+            ><span class="fv__specialBtn__img2"></span
+            >学生限定！なかなかニキビが治らないあなたに、とっておきの化粧品！</a
+          >
+        </div>
+      </div>
+      <!--//ここまでファーストビュー -->
+      <!--ここからセクション （セクションの数だけコピーして使う）-->
+      <!--問題提起-->
+      <section class="section problem" id="problem">
+        <div class="section__inner">
+          <div class="problem__inner">
+            <p class="problem__inner__desc">
+              こんなことでお悩みではありませんか？
+            </p>
+            <ul class="problem__inner__lists">
+              <li class="problem__inner__lists__list">
+                <p class="problem__inner__lists__list__p">肌荒れ</p>
+                <img src="/images/problem1.jpeg" alt="" />
+              </li>
+              <li class="problem__inner__lists__list">
+                <p class="problem__inner__lists__list__p">そばかす</p>
+                <img src="/images/problem2.jpeg" alt="" />
+              </li>
+              <li class="problem__inner__lists__list">
+                <p class="problem__inner__lists__list__p">ニキビ</p>
+                <img src="/images/problem3.jpeg" alt="" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- 問題点の炙りたて-->
+      <section class="section agitation" id="agitation">
+        <h2 class="section__ttl">そのままにしておくと、、、</h2>
+        <div class="section__inner">
+          <div class="agitation__inner">
+            <div class="agitation__inner__txtbox">
+              <h1 class="agitation__inner__txtbox__ttl">危険１</h1>
+              <p class="agitation__inner__txtbox__desc">恋人ができない</p>
+              <a href="#" class="agitation__inner__txtbox__btn"
+                ><img
+                  src="/images/txt-more.svg"
+                  alt="解決策"
+                  style="width: 44px"
+              /></a>
+            </div>
+          </div>
+          <div class="agitation__inner">
+            <div class="agitation__inner__txtbox">
+              <h1 class="agitation__inner__txtbox__ttl">危険２</h1>
+              <p class="agitation__inner__txtbox__desc">大事なデートで失敗</p>
+              <a href="#" class="agitation__inner__txtbox__btn"
+                ><img
+                  src="/images/txt-more.svg"
+                  alt="解決策"
+                  style="width: 44px"
+              /></a>
+            </div>
+          </div>
+          <div class="agitation__inner">
+            <div class="agitation__inner__txtbox">
+              <h1 class="agitation__inner__txtbox__ttl">危険３</h1>
+              <p class="agitation__inner__txtbox__desc">恋人に振られる</p>
+              <a href="#" class="agitation__inner__txtbox__btn"
+                ><img
+                  src="/images/txt-more.svg"
+                  alt="解決策"
+                  style="width: 44px"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 解決前の前置き -->
+      <section class="section beforesolution">
+        <h2 class="section__ttl">そんな悩みを持つあなたに</h2>
+        <img src="/images/yazirushi.png" alt="矢印" class="section__img" />
+      </section>
+      <!-- 解決策 -->
+      <section class="section solution" id="solution">
+        <div class="section__inner">
+          <div class="solution__inner">
+            <!-- 商品１-->
+            <div class="goods">
+              <div class="goods__txtBox">
+                <p class="goods__txtBox__ttl">商品名</p>
+                <p class="goods__txtBox__desc">
+                  しみ、そばかす、ニキビ、あらゆるスキンケアに使える！<br />
+                  科学的にも効果を立証されている！１ヶ月使い続ければ、必ず効果が出てきます！
+                </p>
+                <a href="#" class="goods__txtBox__btn"
+                  ><img
+                    src="/images/txt-more.svg"
+                    alt="購入ボタン"
+                    style="width: 44px"
+                /></a>
+              </div>
+              <div class="goods__imgBox">
+                <img src="/images/goods1.jpeg" alt="商品１" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 絞り込み-->
+      <section class="section narrow" id="narrow">
+        <h2 class="section__ttl">今なら！</h2>
+        <p class="section__desc">今購入すべき、3つの理由！</p>
+        <div class="section__inner">
+          <div class="narrow__inner">
+            <div class="narrow__inner__imgs">
+              <div class="narrow__inner__imgs__img">
+                <img src="/images/narrow1.jpg" alt="" />
+                <p class="narrow__inner__imgs__img__p">即効性</p>
+              </div>
+              <div class="narrow__inner__imgs__img">
+                <img src="/images/narrow2.jpg" alt="" />
+                <p class="narrow__inner__imgs__img__p">低価格</p>
+              </div>
+              <div class="narrow__inner__imgs__img">
+                <img src="/images/narrow3.jpg" alt="" />
+                <p class="narrow__inner__imgs__img__p">送料無料</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="section cta">
+        <h2 class="section__ttl">お急ぎください！</h2>
+        <p class="section__desc">
+          一度ご利用いただいた、ほとんどの方にリピートしていただいています！
+        </p>
+        <div class="section__inner">
+          <div class="cta__inner">
+            <div class="cta__inner__Box">
+              <a href="#" class="moreBtn__btn">今すぐ試してみる</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="section FAQ" id="FAQ">
+        <h2 class="section__ttl">よくある質問</h2>
+        <p class="section__desc">
+          一度ご利用いただいた、ほとんどの方にリピートしていただいています！
+        </p>
+        <div class="section__inner">
+          <div class="FAQ__inner">
+            <div class="FAQ__group" id="accordion">
+              <div class="faq">
+                <div class="faq__heading">
+                  <h4 class="faq__title">
+                    <a
+                      href="#collapse1"
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                      class="txtm collapsed"
+                      aria-expanded="false"
+                      >科学的な立証とはなんですか？</a
+                    >
+                  </h4>
+                </div>
+                <div
+                  id="collapse1"
+                  class="faq__collapse collapse"
+                  aria-expanded="false"
+                >
+                  <div class="faq__body">
+                    <p class="txts">
+                      国の団体によって、効果ありと判断されたということです。
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="faq">
+                <div class="faq__heading">
+                  <h4 class="faq__title">
+                    <a
+                      href="#collapse2"
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                      class="txtm collapsed"
+                      aria-expanded="false"
+                      >参加費以上に稼げなかったらどうなりますか？
+                    </a>
+                  </h4>
+                </div>
+                <div
+                  id="collapse2"
+                  class="faq__collapse collapse"
+                  aria-expanded="false"
+                >
+                  <div class="faq__body">
+                    <p class="txts">
+                      参加費である258,000円以上の金額をトータルで稼ぐまで、無期限でサポート延長いたします。（講座参加後、週30時間以上の実践をすることと、週１回の実践報告をすることが延長条件です。）きちんと学び実践すれば、フリーランスでも収入を作ることは十分に可能です。
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="faq">
+                <div class="faq__heading">
+                  <h4 class="faq__title">
+                    <a
+                      href="#collapse3"
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                      class="txtm collapsed"
+                      aria-expanded="false"
+                      >滞在中の宿泊先はどうなりますか？</a
+                    >
+                  </h4>
+                </div>
+                <div
+                  id="collapse3"
+                  class="faq__collapse collapse"
+                  aria-expanded="false"
+                >
+                  <div class="faq__body">
+                    <p class="txts">
+                      宿泊費用が必要ですが、iSara提携のホステルに宿泊することになりますので心配はありません。
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="faq">
+                <div class="faq__heading">
+                  <h4 class="faq__title">
+                    <a
+                      href="#collapse4"
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                      class="txtm collapsed"
+                      aria-expanded="false"
+                      >滞在中の食事はどうなりますか？</a
+                    >
+                  </h4>
+                </div>
+                <div
+                  id="collapse4"
+                  class="faq__collapse collapse"
+                  aria-expanded="false"
+                >
+                  <div class="faq__body">
+                    <p class="txts">
+                      拠点となる新築シェアハウスの周辺に、50バーツ程度の（160円）安価な飲食店が多数あります。
+                      日本食レストランもありますし、出前を取ることも可能です。
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="faq">
+                <div class="faq__heading">
+                  <h4 class="faq__title">
+                    <a
+                      href="#collapse5"
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                      class="txtm collapsed"
+                      aria-expanded="false"
+                      >追加でかかる費用はありますか？
+                    </a>
+                  </h4>
+                </div>
+                <div
+                  id="collapse5"
+                  class="faq__collapse collapse"
+                  aria-expanded="false"
+                >
+                  <div class="faq__body">
+                    <p class="txts">
+                      宿泊費（トータル20000円）と食費（一食150円程度）くらいです。
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="faq">
+                <div class="faq__heading">
+                  <h4 class="faq__title">
+                    <a
+                      href="#collapse6"
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                      class="txtm collapsed"
+                      aria-expanded="false"
+                      >就職・転職はできますか？</a
+                    >
+                  </h4>
+                </div>
+                <div
+                  id="collapse6"
+                  class="faq__collapse collapse"
+                  aria-expanded="false"
+                >
+                  <div class="faq__body">
+                    <p class="txts">
+                      DODAの調査によると、2017年のエンジニアの求人倍率は7.5倍です。これは、人材不足が叫ばれる医療業界（医師：6倍、看護師：3倍）よりも高い数値です。ですのできちんとしたスキルを身につけることができれば、就職・転職には困らないはずです。元リクルートの転職のプロも運営スタッフとして参加しています。
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="faq">
+                <div class="faq__heading">
+                  <h4 class="faq__title">
+                    <a
+                      href="#collapse7"
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                      class="txtm collapsed"
+                      aria-expanded="false"
+                      >フリーランスにならなければいけないのですか？</a
+                    >
+                  </h4>
+                </div>
+                <div
+                  id="collapse7"
+                  class="faq__collapse collapse"
+                  aria-expanded="false"
+                >
+                  <div class="faq__body">
+                    <p class="txts">
+                      いいえ、必ずフリーランスにならないといけないわけではありません。
+                      実際に過去の卒業生の方の進路も、独立、副業として続ける、就職するなど様々です。
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="faq">
+                <div class="faq__heading">
+                  <h4 class="faq__title">
+                    <a
+                      href="#collapse8"
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                      class="txtm collapsed"
+                      aria-expanded="false"
+                      >ノマドワーカー的に世界を旅しながら働きたいです。可能ですか？</a
+                    >
+                  </h4>
+                </div>
+                <div
+                  id="collapse8"
+                  class="faq__collapse collapse"
+                  aria-expanded="false"
+                >
+                  <div class="faq__body">
+                    <p class="txts">
+                      きちんと努力し、スキルを身に着けることができれば可能です。
+                      iSaraは、「好きなときに働き、好きなときに遊ぶ」という人生を送れる人を増やすために開講しました。
+                      ちなみに、講師は全員ノマドワーカーとして、働きながら自由に世界中を旅しています。
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="faq">
+                <div class="faq__heading">
+                  <h4 class="faq__title">
+                    <a
+                      href="#collapse9"
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                      class="txtm collapsed"
+                      aria-expanded="false"
+                      >学ぶプログラミング言語はなんですか？</a
+                    >
+                  </h4>
+                </div>
+                <div
+                  id="collapse9"
+                  class="faq__collapse collapse"
+                  aria-expanded="false"
+                >
+                  <div class="faq__body">
+                    <p class="txts">
+                      HTML / CSS / PHPを学びます。どの言語も需要が高いです。
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="faq">
+                <div class="faq__heading">
+                  <h4 class="faq__title">
+                    <a
+                      href="#collapse10"
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                      class="txtm collapsed"
+                      aria-expanded="false"
+                      >将来的にwebサービス、アプリ、メディアを作りたいです。</a
+                    >
+                  </h4>
+                </div>
+                <div
+                  id="collapse10"
+                  class="faq__collapse collapse"
+                  aria-expanded="false"
+                >
+                  <div class="faq__body">
+                    <p class="txts">経験してる講師がいますよ。大丈夫です。</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CTA -->
+      <section class="section cta" id="cta">
+        <h2 class="section__ttl">お急ぎください！</h2>
+        <p class="section__desc">
+          一度ご利用いただいた、ほとんどの方にリピートしていただいています！
+        </p>
+        <div class="section__inner">
+          <div class="cta__inner">
+            <div class="cta__inner__Box">
+              <a href="#" class="moreBtn__btn">今すぐ試してみる</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--//ここまでセクション-->
+    </main>
+    <!--ここからフッター-->
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="footer__inner__access">
+          <dl>
+            <dt>
+              <p>
+                会社名：美容系サイト【架空サイト】<br />
+                住所　：東京都新宿市東京の10
+              </p>
+              <a
+                href="http://maps.google.co.jp/maps?q=33.583997,130.4004712"
+                target="_blank"
+                class="footer__inner__access__btn"
+                >Google Mapで見る</a
+              >
+            </dt>
+          </dl>
+        </div>
+        <ul class="footer__inner__shopList">
+          <li>
+            <a href="#"><img src="/images/btn-shop01.png" alt="" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="/images/btn-shop02.png" alt="" /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <!--//ここまでフッター-->
+    <!--jQuery読み込み-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/script.js"></script>
+    <!-- Bootstrap JS and Jquery-->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
